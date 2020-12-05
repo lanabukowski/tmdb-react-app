@@ -1,0 +1,44 @@
+.info-wrapper {
+    display: flex;
+}
+
+.bg-color {
+    background: #353535;
+}
+
+.info-wrap {
+    display: flex;
+    width: 100%;
+}
+
+.info-poster {
+    padding: 10px;
+}
+
+.info-text {
+    width: 35%;
+    padding: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: white
+}
+
+.nummeral {
+    display: flex;
+    margin-top: 40px;
+}
+
+.left, .right {
+    padding: 10px
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.genres, .time {
+    margin-bottom: 40px;
+}
+
+h4 {
+    margin: 0px;
+}

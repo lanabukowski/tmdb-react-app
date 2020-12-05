@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+}
+
+.react {
+    width: 150px;
+    height: 100px;
+}
+
+.tmbd {
+    padding: 10px;
+    width: 200px;
+    height: 80px;
+}

@@ -1,0 +1,47 @@
+.card-wrap {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-image, .card-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card-image {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card-image img{
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card-info {
+    display: none;
+}
+
+.card-wrap:hover .card-info{
+    display: block;
+    color: #e3dff8;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.card-text {
+    position: absolute;
+    bottom: -8px;
+    left: 10px;
+}
+
+a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
